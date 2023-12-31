@@ -1,0 +1,3 @@
+ins[datetime]::before {
+    content: attr(datetime) " 追記";
+}

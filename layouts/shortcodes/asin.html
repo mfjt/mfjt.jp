@@ -1,0 +1,9 @@
+{{- if .IsNamedParams -}}
+  {{- $asin := .Get "asin" -}}
+  {{- $text := .Get "text" -}}
+  <a href="https://www.amazon.co.jp/dp/{{ $asin }}?tag=mfjt-22">{{ $text }}</a>
+{{- else -}}
+  {{- $asin := .Get 0 -}}
+  {{- $text := .Get 1 -}}
+  <a href="https://www.amazon.co.jp/dp/{{ $asin }}?tag=mfjt-22">{{ $text }}</a>
+{{- end -}}

@@ -1,0 +1,22 @@
+.asin-detail {
+    border: 1px solid var(--tertiary);
+    border-radius: var(--radius);
+    display: flex;
+    margin-bottom: var(--gap);
+    padding: 10px;
+}
+
+.asin-detail-img {
+    box-shadow: none !important;
+    display: block;
+    flex-basis: 128px;
+}
+
+.asin-detail-img img {
+    height: 128px;
+    margin: 0 auto;
+}
+
+.asin-detail-info {
+    flex: 1;
+}

@@ -1,0 +1,15 @@
+{{- if .IsNamedParams -}}
+  {{- $asin := .Get "asin" -}}
+  {{- $text := .Get "text" -}}
+  <div class="asin-detail">
+    <a href="https://www.amazon.co.jp/dp/{{ $asin }}?tag=mfjt-22" class="asin-detail-img"><img src="https://m.media-amazon.com/images/P/{{ $asin }}.jpg" alt="" loading="lazy"></a>
+    <div class="asin-detail-info"><a href="https://www.amazon.co.jp/dp/{{ $asin }}?tag=mfjt-22">{{ $text }}</a></div>
+  </div>
+{{- else -}}
+  {{- $asin := .Get 0 -}}
+  {{- $text := .Get 1 -}}
+  <div class="asin-detail">
+    <a href="https://www.amazon.co.jp/dp/{{ $asin }}?tag=mfjt-22" class="asin-detail-img"><img src="https://m.media-amazon.com/images/P/{{ $asin }}.jpg" alt="" loading="lazy"></a>
+    <div class="asin-detail-info"><a href="https://www.amazon.co.jp/dp/{{ $asin }}?tag=mfjt-22">{{ $text }}</a></div>
+  </div>
+{{- end -}}
