@@ -1,0 +1,58 @@
+author.emal: mfjt@mfjt.jp
+author.name: oɹıɥɐsɐɯ ɐʇıɾnɟ
+baseURL: https://mfjt.jp/
+defaultContentLanguage: ja
+enableRobotsTXT: true
+hasCJKLanguage: true
+languageCode: ja-jp
+pluralizeListTitles: false
+sectionPagesMenu: main
+title: mfjt.jp
+theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  author: oɹıɥɐsɐɯ ɐʇıɾnɟ
+  dateFormat: 2006-01-02
+  defaultTheme: auto
+  disableThemeToggle: true
+  hideAuthor: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  ShowPostNavLinks: true
+
+  profileMode:
+    enabled: true
+    title: oɹıɥɐsɐɯ ɐʇıɾnɟ
+
+  socialIcons:
+    - name: x
+      url: https://twitter.com/mfjt
+    - name: microblog
+      title: GoToSocial (Self-hosted ActivityPub server)
+      url: https://gts.mfjt.jp/@mfjt
+    - name: lastfm
+      title: Last.fm
+      url: https://www.last.fm/user/mfjt_jpn
+    - name: github
+      title: GitHub
+      url: https://github.com/mfjt
+    - name: email
+      url: mailto:mfjt@mfjt.jp
+
+permalinks:
+  page:
+    diary: /:section/:year/:month/:day/:15:04:05/
+
+privacy:
+  twitter:
+    enableDTN: true
+  youtube:
+    privacyEnhanced: true
+
+taxonomies:
+  archives: archives
