@@ -15,6 +15,13 @@ markup:
     renderer:
       unsafe: true
 
+outputs:
+  home:
+    - html
+  diary:
+    - html
+    - rss
+
 params:
   author: oɹıɥɐsɐɯ ɐʇıɾnɟ
   dateFormat: 2006-01-02
