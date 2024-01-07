@@ -1,3 +1,13 @@
-ins[datetime]::before {
+.post-content>ins {
+    border-inline-start: 3px solid var(--primary);
+    display: block;
+    margin: 20px 0;
+    padding: 0 14px;
+    text-decoration: none;
+}
+
+.post-content>ins[datetime]::before {
     content: attr(datetime) " 追記";
+    display: block;
+    margin-bottom: var(--content-gap);
 }
