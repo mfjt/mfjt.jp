@@ -42,9 +42,12 @@ params:
   socialIcons:
     - name: x
       url: https://twitter.com/mfjt
-    - name: microblog
+    - name: fediverse
       title: GoToSocial (Self-hosted ActivityPub server)
       url: https://gts.mfjt.jp/@mfjt
+    - name: bluesky
+      title: Bluesky
+      url: https://bsky.mfjt.jp/
     - name: lastfm
       title: Last.fm
       url: https://www.last.fm/user/mfjt_jpn
