@@ -1,4 +1,4 @@
-author.emal: mfjt@mfjt.jp
+author.emal: me@mfjt.jp
 author.name: oɹıɥɐsɐɯ ɐʇıɾnɟ
 baseURL: https://mfjt.jp/
 defaultContentLanguage: ja
@@ -55,7 +55,7 @@ params:
       title: GitHub
       url: https://github.com/mfjt
     - name: email
-      url: mailto:mfjt@mfjt.jp
+      url: mailto:me@mfjt.jp
 
 permalinks:
   page:
