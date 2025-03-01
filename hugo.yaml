@@ -41,7 +41,7 @@ params:
 
   socialIcons:
     - name: x
-      url: https://twitter.com/mfjt
+      url: https://x.com/mfjt
     - name: fediverse
       title: GoToSocial (Self-hosted ActivityPub server)
       url: https://gts.mfjt.jp/@mfjt
