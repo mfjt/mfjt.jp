@@ -33,7 +33,7 @@ params:
   ShowPostNavLinks: true
 
   profileMode:
-    imageUrl: apple-touch-icon.png
+    imageUrl: profile.webp
     buttons:
       - name: Diary
         url: /diary/
