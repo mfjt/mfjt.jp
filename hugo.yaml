@@ -19,9 +19,6 @@ markup:
 outputs:
   home:
     - html
-  diary:
-    - html
-    - rss
 
 params:
   author: oɹıɥɐsɐɯ ɐʇıɾnɟ
