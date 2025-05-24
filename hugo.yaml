@@ -1,5 +1,6 @@
-author.emal: me@mfjt.jp
-author.name: oɹıɥɐsɐɯ ɐʇıɾnɟ
+author:
+  emal: me@mfjt.jp
+  name: oɹıɥɐsɐɯ ɐʇıɾnɟ
 baseURL: https://mfjt.jp/
 defaultContentLanguage: ja
 enableRobotsTXT: true
@@ -31,6 +32,9 @@ params:
   ShowCodeCopyButtons: true
   ShowFullTextinRSS: true
   ShowPostNavLinks: true
+
+  footer:
+    text: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 
   profileMode:
     imageUrl: profile.webp
